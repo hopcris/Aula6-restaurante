@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Layout de Restaurante</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- div#nav_esq -->
+            <div id="nav_esq">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="cardapio.html">Cardápio</a>
+                <a href="precos.html">Preços</a>
+                <a href="giftcard.html">Gift Card</a>
+            </div>
+            <div id="nav_logo">
+                
+            </div>
+            <div id="nav_dir">
+                <a href="faq.html">Faq</a>
+                <a href="reservas.html">Reservas</a>
+                <a href="contato.html" class="menu_atual">Contato</a>
+                <a href="trabalhe.html">Trabalhe Conosco</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Contato</h1>
+        <section>
+            <div id="contato_form">
+                <div class="assunto_flex">
+                    <p class="div_espacos">Escolha o assunto:</p>
+                    <form action="" method="post">
+                        <select name="" id="op">
+                            <option value="sugestao">Sugestão</option>
+                            <option value="critica">Crítica</option>
+                            <option value="elogio">Elogio</option>
+                            <option value="orcamento">Orçamento</option>
+                        </select>
+                </div> 
+                <div class="assunto_flex">
+                    <label for="text">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>                   
+                    <br>
+                <div class="assunto_flex">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Digite seu email" id="email">
+                </div> 
+                    <br>
+                <div class="assunto_flex">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+                <br>
+                <div class="assunto_flex">
+                    <label for="phone">Número de Telefone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(XX) XXXX-XXXX" >
+
+                </div>
+                    <br>
+                    <input type="checkbox" name="" id="check_idade" required>
+                    <label for="">Li e aceito a política de privacidade.</label>
+                    <br>
+                    <button type="submit">Enviar os dados do formulário</button>
+                </form>
+            </div>
+            <div id="contato_img"></div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
